@@ -1,1 +1,12 @@
-
+seu-repositorio/
+├── manifest.json
+├── background.js
+├── content.js
+├── popup.html
+├── popup.js
+├── popup.css
+└── images/
+    ├── icon16.png
+    ├── icon48.png
+    └── icon128.png
+└── README.md
