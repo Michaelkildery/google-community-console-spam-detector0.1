@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Community Guardian</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Community Guardian</h1>
+
+  <div>
+    <h2>Palavras-chave de Spam</h2>
+    <textarea id="spamKeywords" rows="5" cols="30"></textarea>
+    <button id="saveKeywords">Salvar Palavras-chave</button>
+  </div>
+
+  <div>
+    <h2>Padrões de Spam (Regex)</h2>
+    <textarea id="spamPatterns" rows="5" cols="30" placeholder="Uma regex por linha"></textarea>
+    <button id="savePatterns">Salvar Padrões</button>
+  </div>
+
+  <div>
+    <h2>Ações em Massa</h2>
+    <button id="markObsoleteButton">Marcar Spam Suspeito como Obsoleto</button>
+  </div>
+
+  <div>
+    <h2>Usuários Bloqueados</h2>
+    <ul id="blockedUsersList"></ul>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
